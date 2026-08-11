@@ -1,0 +1,34 @@
+{
+  "$schema": 1,
+  "project": {
+    "name": "Equilibrium",
+    "description": "Browser-based isometric souls-like survival RPG — chunked open world, melee/ranged combat, soul meter, crafting, and lore-driven progression, built on PixiJS.",
+    "url": "https://aigsniperyt.github.io/equilibrium/",
+    "repo": "https://github.com/aigsniperyt/equilibrium-dev",
+    "category": "Games",
+    "tags": ["pixijs", "isometric", "souls-like", "javascript", "browser-game"]
+  },
+  "release": {
+    "version": "V6",
+    "date": "2026-08-07",
+    "changelog": [
+      "added: soul system — kills drop collectible soul, spent on repair; bleed makes wounds linger, and an equilibrium threshold decides if wounds self-heal or drain you",
+      "changed: soul economy rebalanced — capacity raised 800 to 2,000, repair is urgent but pricey, damage sparks are collectible income, and leaks drain your real meter",
+      "changed: getting hit now costs soul — sparks fly out carrying real soul value, and death empties your entire soul vessel",
+      "added: focus healing — stand still and hold R to ramp heal speed from 8 to 16 HP/s, suppress soul leak, and heal past 91% HP",
+      "changed: soul meter redesigned — a pointy-top ring of 12 crystallised-light hexagons, a crown at full soul, shattering shards on tier loss, and a preview glow on the next slot",
+      "changed: hotbar redesigned — corner L-brackets extend on hover and glow when equipped over a warm pearl background; crafting moved to an on-screen interface with an arrow recipe (1 wood + 1 stone)",
+      "added: in-game changelog — press C to open a changelog panel styled like the soul meter; crafting moved off the C key to make room",
+      "added: day/night cycle — a 10-minute cycle with warm golden hours and cool nights; the sky stays a warm dark tone, no more white midday flash",
+      "changed: enemies see and hear — FOV cone and hearing catch arrows, deaths, and footsteps; slimes freeze and panic at deaths, and AI wanders, orbits, and tackles in coordinated groups",
+      "fixed: enemy combat fairness — slimes hit once per entry into range, no double-taps, no teleporting lunges, and contact damage is a real 12",
+      "changed: combat feel — unarmed fists jab on their own; thrusts pierce cleanly and skewer kills toward you; camera shake is directional and weighty; dying enemies slide, leak soul mist, and burst in a gushing explosion",
+      "added: dash and time freeze — dash (Shift) grants brief invincibility with afterimages; time freeze (Space) slows the world while you move in full colour",
+      "added: launch splash screen and void meter — the game opens with a gold-on-dark cinematic splash, and void volume/purity reads as a glow in your soul vessel with a VOID label",
+      "fixed: core combat bugs — stuck movement keys, isometric depth sorting, dead-enemy interference, and time freeze timing all fixed"
+    ]
+  },
+  "media": {
+    "image": ""
+  }
+}
